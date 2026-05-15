@@ -7,12 +7,12 @@ Minimal Django + `django-allauth` example wired to **OttoAuth** (`auth.ottospace
 ## Quick start
 
 ```bash
-git clone https://github.com/ottospace/ottospace-example-django-allauth.git
+git clone https://github.com/moradothmanepro-OTTO/ottospace-example-django-allauth.git
 cd ottospace-example-django-allauth
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# Register a client at https://auth.ottospace.co/dashboard/oauth-clients
+# Register a client at https://id.ottospace.co/dashboard/oidc-clients
 # Redirect URI: http://localhost:8000/accounts/oidc/ottospace/login/callback/
 
 cp .env.example .env
